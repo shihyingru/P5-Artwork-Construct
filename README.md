@@ -1,6 +1,6 @@
 ## 🏗️Construct Self Generative Artwork Style.  
 
-### Interstices(241029)
+### Interstices(241023)
 #### [Origin] ✨ Vera Molnar Interstices, 1986  
 <img src="https://github.com/user-attachments/assets/9c60c896-8816-4f9b-a689-83e19d93565a" width="400">  
 
