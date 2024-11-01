@@ -6,6 +6,7 @@
  * https://www.artsy.net/artwork/vera-molnar-interstices-4
  *
  */
+var utils;
 var rows = 10;
 var cols = 10;
 
@@ -18,11 +19,8 @@ let colors = ["#896d82"];
 
 function setup() {
   bleeding = (rows * gridWidth * 0.1) / 2;
-  createCanvas(
-    rows * gridWidth + bleeding * 2,
-    cols * gridHeight + bleeding * 2,
-    WEBGL
-  );
+  utils = new Utils(rows * gridWidth, cols * gridHeight, bleeding);
+  utils.createCanvasWithWebGL();
   background(255);
   frameRate(60);
 }
@@ -55,7 +53,7 @@ function draw() {
 // Save the image with different options when the user presses a key.
 function keyPressed() {
   if (key === 's') { // Saves the canvas as an image by default
-    save('241029_Vera Molnar_Interstice_1986.jpg');
+    utils.saveImge('241029_Vera Molnar_Interstice_1986.jpg');
   } else if (key === 'j') {
     // img.save('rockies.jpg');
   }

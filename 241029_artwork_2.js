@@ -10,19 +10,19 @@
 let rectCount = 11;
 let rectWidth = 12;
 let rectBleeding = 10;
-var bleeding; //bleeding > 9:1
+var bleeding;
 //rgba(19,93,164,255)
 let colors = ["#135da4", "#000000"];
 //#f0e4d4(rgba(240,228,212,255))
 let bgColor = "#f0e4d4";
-let frames = 60;
+var utils;
 
 function setup() {
     bleeding = (rectWidth + (rectBleeding * 2)) * rectCount * 0.1 / 2;
-    let canvasWidth = (rectWidth + (rectBleeding * 2)) * rectCount + bleeding * 2;
+    let canvasWidth = (rectWidth + (rectBleeding * 2)) * rectCount;
     let canvasHeight = canvasWidth / 1.3;
-    createCanvas(canvasWidth, canvasHeight, WEBGL);
-    // frameRate(2);
+    utils = new Utils(canvasWidth, canvasHeight, bleeding);
+    utils.createCanvasWithWebGL();
 }
 
 function draw() {
@@ -65,9 +65,8 @@ function draw() {
 function keyPressed() {
     // console.log(key);
     if (key === 's') { // Saves the canvas as an image by default
-        save('241101_Vera Molnar_Mouvement_1959.jpg');
+        utils.saveImg('241101_Vera Molnar_Mouvement_1959.jpg');
     } else if (key === 'a') {
-        const options = { units: "frames", delay: 0 };
-        saveGif('test.gif', frames, options);
+        redraw();
     }
 }
