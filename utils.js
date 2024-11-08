@@ -1,4 +1,5 @@
 class Utils {
+  //Current for same equal proportions
   constructor(contentWidth, contentHeight, bleeding) {
     this.contentWidth = contentWidth;
     this.contentHeight = contentHeight;
