@@ -17,3 +17,8 @@
 ### [Original Artwork] ✨ Vera Molnar Parcours à angles droit, 1997
 #### [🎐 Mine Version]
 <img src="https://github.com/user-attachments/assets/76fb6359-f115-4590-a803-445201808cf7" width="400">
+
+## Boxes with rectangular hatchings(241113) 
+### [Original Artwork] ✨ Frieder Nake Boxes with rectangular hatchings, 1965.
+#### [🎐 Mine Version]
+<img src="" width="400">
