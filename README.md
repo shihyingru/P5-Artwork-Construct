@@ -21,4 +21,6 @@
 ## Boxes with rectangular hatchings(241113) 
 ### [Original Artwork] ✨ Frieder Nake Boxes with rectangular hatchings, 1965.
 #### [🎐 Mine Version]
-<img src="" width="400">
+| 📍Random Version | 📍Gradually hatching Sample |  
+|-------------------|------------------------|  
+| <img src="https://github.com/user-attachments/assets/c8162b95-ee5a-41fe-bb0d-ef4027b571ac" width="400"> | <img src="https://github.com/user-attachments/assets/628d5ff9-8447-4718-8857-8fbd17222866" width="400"> |
