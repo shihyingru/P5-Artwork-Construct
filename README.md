@@ -25,7 +25,7 @@
 |-------------------|------------------------|  
 | <img src="https://github.com/user-attachments/assets/c8162b95-ee5a-41fe-bb0d-ef4027b571ac" width="400"> | <img src="https://github.com/user-attachments/assets/628d5ff9-8447-4718-8857-8fbd17222866" width="400"> |
 
-## Boxes with rectangular hatchings(241113) 
+## Boxes with rectangular hatchings(241122) 
 ### [Original Artwork] ✨ Frieder Nake - Sets of straight lines Nr. 2 (12/7/65), 1965.
 #### [🎐 Mine Version]
-<img src="" width="400">
+<img src="https://github.com/user-attachments/assets/28785968-f937-464c-ad73-95917ddcce1f" width="400">
